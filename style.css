@@ -1,0 +1,165 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#addbtn
+{
+
+  background-color: black;
+  padding: .6rem .6rem;
+  color: white;
+  border-radius: 1rem;
+  border: 0;
+  outline: 0;
+margin-right: 3rem;
+cursor: pointer;
+}
+
+.bar
+{
+   background-color: rgb(64, 63, 63);
+   height: 2rem;
+ font-weight: 700;
+ font-family: 'Caveat', cursive;
+ 
+}
+
+.heading1{
+   margin-left: 1rem;
+   color: white;
+ font-size: 1.4rem;
+}
+
+#addbtn:hover
+{
+   background-color:rgb(33, 242, 172) ;
+   color: black;
+}
+
+#parentNotes{
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 2rem;
+ margin-left: 1rem;
+
+}
+
+#main
+{
+  margin-top: 2rem;
+display: flex;
+width: 100%;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+}
+
+.heading2{
+color: black;
+font-weight: 700;
+font-family: 'Caveat', cursive;
+font-size: 2.3rem;
+margin-left: 1rem;
+
+}
+.container
+{
+   height: 100vh;
+   width: 100%;
+ background-color: rgb(255, 255, 255);
+
+}
+
+.note1{
+width: 16rem;
+height: 16rem;
+margin:2.5rem;
+}
+
+
+
+.toolbar
+{
+    width: 100%;
+    background-color: black;
+    height: 2rem;
+    color: white;
+    display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.toolbar i{
+    padding: .4rem;
+    cursor: pointer;
+  
+}
+
+ .note1 textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 1rem;
+    font-size: 1rem;
+ }
+
+ 
+
+ .note1 textarea:focus{
+ border: 0;   
+ outline: 0;
+ }
+
+ @media screen and  (max-width: 466px) {
+  .heading2{
+   
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+ 
+  #main
+  {
+    margin-top: 1rem;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.bar
+{
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+
+#addbtn{
+  padding: .4rem .2rem ;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: .7rem;
+ 
+}
+
+
+.note1{
+ 
+margin-left: 5rem;
+  width: 18rem;
+  height: 17rem;
+
+  
+}
+ }
+
+ 
